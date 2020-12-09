@@ -1,6 +1,6 @@
-## Low-Side Data Ingestion Case-study
+# Low-Side Data Ingestion Case-study
 
-# Running with Docker
+## Running with Docker
 
  This repository includes a Dockerfile and docker-compose .yml file, which allow the entire project to be installed and ran in Docker containers. This includes bundled NiFi, ElasticSearch and Kibana applications, as well as containerizing the Python-Flask API and making exposing all endpoints.
 
@@ -17,7 +17,7 @@
   
 
 
-# SmallFlaskAPI
+## SmallFlaskAPI
 
 Miniature Python-Flask API, with csv -> json processor for NiFi Upskilling 
 
