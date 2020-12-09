@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-LABEL Harry Morgan "harry.morgan@baesystems.com"
+LABEL Maintainer: Harry Morgan @ "harry.morgan@baesystems.com"
 
 RUN apt-get update -y && apt-get install -y python3-pip python-dev
 
