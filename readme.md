@@ -1,8 +1,10 @@
 # Low-Side Data Ingestion Case-study
 
+To be used as an upskilling and familiarity exercise for new joiners on low-side. The repository includes a small API written with Python-Flask, an associated Dockerfile to create an image and a docker-compose scripts which will deploy the development environment. Below are instructions for running the environment and accessing each component application.  
+
 ## Running with Docker
 
- This repository includes a Dockerfile and docker-compose .yml file, which allow the entire project to be installed and ran in Docker containers. This includes bundled NiFi, ElasticSearch and Kibana applications, as well as containerizing the Python-Flask API and making exposing all endpoints.
+This repository includes a Dockerfile and docker-compose .yml file, which allow the entire project to be installed and ran in Docker containers. This includes bundled NiFi, ElasticSearch and Kibana applications, as well as containerizing the Python-Flask API and making exposing all endpoints.
 
  To launch the project using Docker, install Docker Desktop and simply use
 
@@ -10,13 +12,11 @@
 
  in the terminal in the working directory. It may take a short while to download and install the relevant images but eventually the applications will be available at their default ports:
 
-  - Python-Flask API: 5000
-  - NiFi: 8080
-  - ElasticSearch: 9200 / 9300
-  - Kibana: 5601
+  - Python-Flask API: localhost:5000
+  - NiFi: localhost:8080
+  - ElasticSearch: localhost:9200 / 9300
+  - Kibana: localhost:5601
   
-
-
 ## SmallFlaskAPI
 
 Miniature Python-Flask API, with csv -> json processor for NiFi Upskilling 
