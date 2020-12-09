@@ -1,13 +1,6 @@
-# Low-Side Data Ingestion Case-study
-# SmallFlaskAPI
+## Low-Side Data Ingestion Case-study
 
-Miniature Python-Flask API, with csv -> json processor for NiFi Upskilling 
-
-api.py handles the spinning up of the Flask API, while format.py formats the raw synthetic data .csv files to JSON for the API to handle.
-
-Simply pull down the Synthetic-data repo into the project directory and reference the relative .csv file paths.
- 
- # Running with Docker
+# Running with Docker
 
  This repository includes a Dockerfile and docker-compose .yml file, which allow the entire project to be installed and ran in Docker containers. This includes bundled NiFi, ElasticSearch and Kibana applications, as well as containerizing the Python-Flask API and making exposing all endpoints.
 
@@ -22,7 +15,15 @@ Simply pull down the Synthetic-data repo into the project directory and referenc
   - ElasticSearch: 9200 / 9300
   - Kibana: 5601
   
-# Running scripts
+
+
+# SmallFlaskAPI
+
+Miniature Python-Flask API, with csv -> json processor for NiFi Upskilling 
+
+api.py handles the spinning up of the Flask API, while format.py formats the raw synthetic data .csv files to JSON for the API to handle.
+
+Simply pull down the Synthetic-data repo into the project directory and reference the relative .csv file paths.
 
 Just run:
   `python api.py`
