@@ -6,10 +6,8 @@ To be used as an upskilling and familiarity exercise for new joiners on low-side
 
 This repository includes a Dockerfile and docker-compose .yml file, which allow the entire project to be installed and ran in Docker containers. This includes bundled NiFi, ElasticSearch and Kibana applications, as well as containerizing the Python-Flask API and making exposing all endpoints.
 
- To launch the project using Docker, install Docker Desktop and simply use
-
- ` docker-compose up `
-
+ To launch the project using Docker, install Docker Desktop and simply use 
+ ` docker-compose up ` 
  in the terminal in the working directory. It may take a short while to download and install the relevant images but eventually the applications will be available at their default ports:
 
   - Python-Flask API: localhost:5000
